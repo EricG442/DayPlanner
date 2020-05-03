@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='X-UA-Compatible' content='ie=edge'>
+        <title>Calender 1</title>
+        <link rel='stylesheet' href='style.css'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    </head>
+    <body>
+        <div class='container-fluid'>
+            <div class='header'>
+                <h1>Calender App</h1>
+                <p>
+                    <br><strong>How To Use:</strong>
+                    <br>Type an event in one of the text area's to save it.
+                    <br>A Green Row is an open availible time slot,
+                    <br>A Red Row is a time slot with an Event You typed in,
+                    <br>A Blue Row is the row of the Current Time, 
+                </p>
+            </div>
+            <div class='calender-container'>
+                 <h1 class='date-display'>Display Date Here</h1>
+                 <table class='table'>
+                     <thread class='thread-dark'>
+                         <tr class='row0'>
+                             <th scope='col'>#</th>
+                             <th scope='col'>Time</th>
+                             <th scope='col'>Event</th>
+                             <th scope='col'>Clear Event</th>
+                         </tr>
+                     </thread>
+                     <tbody>
+                         <tr class='09'>
+                             <th scope='row'>1</th>
+                             <td>9:00 AM</td>
+                             <td><textarea class='text-area' id='1'></textarea></td>
+                             <td><button type='button' class='btn btn-primary' value='1'>Clear</button></td>
+                         </tr>
+                         <tr class='10'>
+                             <th scope='row'>2</th>
+                             <td>10:00 AM</td>
+                             <td><textarea class='text-area' id='2'></textarea></td>
+                             <td><button type='button' class='btn btn-primary' value='2'>Clear</button></td>
+                         </tr>
+                         <tr class='11'>
+                             <th scope='row'>3</th>
+                             <td>11:00 AM</td>
+                             <td><textarea class='text-area' id='3'></textarea></td>
+                             <td><button type='button' class='btn btn-primary' value='3'>Clear</button></td>
+                         </tr>
+                         <tr class='12'>
+                            <th scope='row'>4</th>
+                            <td>12:00 PM</td>
+                            <td><textarea class='text-area' id='4'></textarea></td>
+                            <td><button type='button' class='btn btn-primary' value='4'>Clear</button></td>
+                        </tr>
+                        <tr class='13'>
+                            <th scope='row'>5</th>
+                            <td>1:00 PM</td>
+                            <td><textarea class='text-area' id='5'></textarea></td>
+                            <td><button type='button' class='btn btn-primary' value='5'>Clear</button></td>
+                        </tr>
+                        <tr class='14'>
+                            <th scope='row'>6</th>
+                            <td>2:00 PM</td>
+                            <td><textarea class='text-area' id='6'></textarea></td>
+                            <td><button type='button' class='btn btn-primary' value='6'>Clear</button></td>
+                        </tr>
+                        <tr class='15'>
+                            <th scope='row'>7</th>
+                            <td>3:00 PM</td>
+                            <td><textarea class='text-area' id='7'></textarea></td>
+                            <td><button type='button' class='btn btn-primary' value='7'>Clear</button></td>
+                        </tr>
+                        <tr class='16'>
+                            <th scope='row'>8</th>
+                            <td>4:00 PM</td>
+                            <td><textarea class='text-area' id='8'></textarea></td>
+                            <td><button type='button' class='btn btn-primary' value='8'>Clear</button></td>
+                        </tr>
+                        <tr class='17'> 
+                            <th scope='row'>9</th>
+                            <td>5:00 PM</td>
+                            <td><textarea class='text-area' id='9'></textarea></td>
+                            <td><button type='button' class='btn btn-primary' value='9'>Clear</button></td>
+                        </tr>
+                        <tr class='18'>
+                           <th scope='row'>10</th>
+                           <td>6:00 PM</td>
+                           <td><textarea class='text-area' id='10'></textarea></td>
+                           <td><button type='button' class='btn btn-primary' value='10'>Clear</button></td>
+                       </tr>
+                       <tr class='19'>
+                           <th scope='row'>11</th>
+                           <td>7:00 PM</td>
+                           <td><textarea class='text-area' id='11'></textarea></td>
+                           <td><button type='button' class='btn btn-primary' value='11'>Clear</button></td>
+                       </tr>
+                       <tr class='20'>
+                           <th scope='row'>12</th>
+                           <td>8:00 PM</td>
+                           <td><textarea class='text-area' id='12'></textarea></td>
+                           <td><button type='button' class='btn btn-primary' value='12'>Clear</button></td>
+                       </tr>
+                       <tr class='21'>
+                           <th scope='row'>13</th>
+                           <td>9:00 PM</td>
+                           <td><textarea class='text-area' id='13'></textarea></td>
+                           <td><button type='button' class='btn btn-primary' value='13'>Clear</button></td>
+                       </tr>
+                     </tbody>
+                 </table>
+            </div>    
+        </div>
+        <script src='script.js'></script>
+    </body>
+</html>
